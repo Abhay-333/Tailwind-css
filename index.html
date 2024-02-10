@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind css</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css" rel="stylesheet" />
+
+    <!-- 1.tailwind css matlab ki aapko css haath se css nhi likh ni hai sirf class lagani hai
+    2.tailwind css matlab ki aapko pahele mobile ke liye karna hai
+    3.tailwind css matlab ki aapko responsive ke liye bas breakpoints target karne hai -->
+
+</head>
+
+<body>
+
+    <div class="main h-screen w-full font-['Gilroy'] overflow-hidden">
+
+            <div class="navbar h-[10%] w-full flex items-center justify-between px-4 flex-grow">
+
+                <div class="left-nav flex">
+                    <h3 class="uppercase font-light text-sm border-[1px] border-black py-3 px-4 rounded-[30px]">Menu
+                    </h3>
+                </div>
+
+                <div class="mid-nav text-xl uppercase lg:font-medium">
+                    <h1>DentyTech</h1>
+                </div>
+
+                <div class="right-nav flex gap-1">
+                    <h3
+                        class="hidden lg:flex uppercase font-light text-lg border-[1px] border-black px-4 py-1.5 rounded-[30px]">
+                        Log In
+                    </h3>
+                    <h3
+                        class="hidden lg:flex uppercase font-light text-lg px-4 py-1.5 border-[1px] border-black rounded-[30px]">
+                        Sign
+                        Up</h3>
+
+                    <h3
+                        class="lg:hidden uppercase font-light text-lg border-[1px] border-black py-2 px-4 rounded-[30px] text-black">
+                        <i class="ri-menu-3-line"></i>
+                    </h3>
+
+                </div>
+
+            </div>
+
+
+
+        <div class="content h-[90%] w-full flex items-center justify-center relative">
+            <h1 class="text-[11vw] uppercase w-full text-center font-medium ">Our advantages</h1>
+
+            <img id="img1" class="rounded-[20px] absolute top-[50%] left-[50%] rotate-[-30deg] translate-x-[-50%] translate-y-[-50%] w-[50%] lg:w-[20%] h-40%] object-cover object-center"
+                src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=1376&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                alt="">
+
+            <img id="img2" class="rounded-[20px] absolute top-[50%] left-[50%] rotate-[-20deg] translate-x-[-50%] translate-y-[-50%] w-[50%] lg:w-[20%] h-40%] object-cover object-center"
+                src="https://images.unsplash.com/photo-1464863979621-258859e62245?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDJ8fHxlbnwwfHx8fHw%3D"
+                alt="">
+
+            <img id="img3" class="rounded-[20px] absolute top-[50%] left-[50%] rotate-[-10deg] translate-x-[-50%] translate-y-[-50%] w-[50%] lg:w-[20%] h-40%] object-cover object-center"
+                src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                alt="">
+
+            <img id="img4" class="rounded-[20px] absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] w-[50%] lg:w-[20%] h-40%] object-cover object-center"
+                src="https://images.unsplash.com/photo-1567532939604-b6b5b0db2604?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                alt="">
+
+            <h4 class="absolute bottom-[0%] left-[5%] font-bold">Your smile, Our Passion</h4>
+
+            <div class="icons absolute bottom-0 right-[5%] flex-col gap-[20px] text-center">
+                <i class="ri-instagram-line text-2xl "></i>
+                <i class="ri-youtube-fill text-2xl "></i>
+                <i class="ri-facebook-box-line text-2xl "></i>
+
+                <h5 class="text-center lg:text-[1vw]">Best start Up of 2023</h5>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+        integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="Tailwind css.js"></script>
+</body>
+
+</html>
